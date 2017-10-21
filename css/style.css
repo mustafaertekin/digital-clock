@@ -1,5 +1,5 @@
 @font-face {
-    font-family: myFirstFont;
+    font-family: digital-7;
     src: url(/font/digital-7.ttf);
 }
 #container {
@@ -19,7 +19,7 @@
     width: 120px;
     font-size: 90px;
     text-align: center;
-    font-family: myFirstFont;
+    font-family: digital-7;
 }
 
 .point {
