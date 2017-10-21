@@ -18,9 +18,13 @@ function timeSeter() {
         }
     }
 
-    $(".point").hide().show();
+    $(".point").toggle();
+    
+    let strSecond = new String(second).padStart(2, "0"); 
+    let strMinute = new String(minute).padStart(2, "0"); 
+    let strHour = new String(hour).padStart(2, "0"); 
 
-    $("#divSecond").text(second);
-    $("#divMinute").text(minute);
-    $("#divHour").text(hour);
+    $("#divSecond").text(strSecond);
+    $("#divMinute").text(strMinute);
+    $("#divHour").text(strHour);
 }
